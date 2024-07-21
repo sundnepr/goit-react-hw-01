@@ -24,7 +24,7 @@ export default function App() {
       likes={userData.stats.likes}
     />
       <FriendList friends={friends} />
-       <TransactionHistory items={transactions} />
+      <TransactionHistory elements={transactions} />
     </>
   );
 }
