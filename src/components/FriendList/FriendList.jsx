@@ -1,6 +1,6 @@
-import { arrayOf } from "prop-types";
-import FriendListItem from "./FriendListItem";
-import css from './FriendList.module.css';
+// import { arrayOf } from "prop-types";
+import FriendListItem from "../FriendListItem/FriendListItem";
+import css from '../FriendList/FriendList.module.css';
 
 const FriendList = ({ friends }) => {
   // console.log(typeof friends);
