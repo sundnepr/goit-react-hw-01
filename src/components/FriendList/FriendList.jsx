@@ -1,11 +1,12 @@
 import { arrayOf } from "prop-types";
 import FriendListItem from "./FriendListItem";
+import css from './FriendList.module.css';
 
 const FriendList = ({ friends }) => {
-  console.log(typeof friends);
+  // console.log(typeof friends);
 
   return (
-    <ul>
+    <ul className={css.friendList}>
       <>
         {friends.map(({ avatar, name, isOnline, id }) => (
           <FriendListItem
