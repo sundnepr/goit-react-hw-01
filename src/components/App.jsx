@@ -19,7 +19,6 @@ export default function App() {
         avatar={userData.avatar}
         tag={userData.tag}
         location={userData.location}
-        image={userData.avatar}
         stats={userData.stats}
         likes={userData.stats.likes}
       />
